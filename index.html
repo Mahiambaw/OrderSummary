@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@400;500;700;900&display=swap" rel="stylesheet">
+
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+
+    <title>Frontend Mentor | Order summary card</title>
+
+    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+    <!-- <style>
+      .attribution {
+        font-size: 11px;
+        text-align: center;
+      }
+      .attribution a {
+        color: hsl(228, 45%, 44%);
+      } -->
+    </style>
+  </head>
+  <body>
+    <section class="hero">
+      <div class="container">
+        <div class="wrapper flex-column ">
+        <figure class="order">
+          <img  class = "order__img"src="./images/illustration-hero.svg" alt="" />
+          <div class = "order__text flex-column ">
+            <h1>Order Summary</h1>
+            <p>
+              You can now listen to millions of songs, audiobooks, and podcasts
+              on any device anywhere you like!
+            </p>
+          </div>
+        </figure>
+          <div class = "plan">
+            <img class = "plan__img" src="/images/icon-music.svg" alt="" />
+            <div class="plan__text">
+              <p>Annual Plan</p>
+              <span> $59.99/year</span>
+            </div>
+            <a class="plan__btn" href="">Change</a>
+          </div>
+        </div>
+        <div class="payment flex-column">
+        <a  class = "btn btn-payment"href="">Proceed to Payment</a>
+        <a class = "btn btn-cancel"href="">Cancel Order</a>
+      </div>
+      </div>
+    </section>
+  </body>
+</html>
